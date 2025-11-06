@@ -1,10 +1,10 @@
-# Personal finance tracker
+# Personal Finance Parser
 
 ---
 
 ## **Overview**
 
-The **Personal Finance Tracker** is a command-line, terminal-based application designed to process personal spending stored in CSV format. It provides users with statistics about their income, expenses, and balance. Users can choose which statistic to display using specific commands.
+The **Personal Finance Parser** is a command-line, terminal-based application designed to process personal spending stored in CSV format. It provides users with statistics about their income, expenses, and balance. Users can choose which statistic to display using specific commands.
 
 ---
 
@@ -46,7 +46,7 @@ The **Personal Finance Tracker** is a command-line, terminal-based application d
 2. **Clone the Repository**
    - Clone the repository containing the source code:
      ```bash
-     git clone git@github.com:Kezak1/pft.git
+     git clone git@github.com:Kezak1/pfp.git
      cd pft
      ```
 
@@ -85,7 +85,7 @@ The **Personal Finance Tracker** is a command-line, terminal-based application d
 3. **Interact Using Commands**
    - Example interaction:
      ```
-     WELCOME TO IFT!
+     WELCOME TO PFP!
      Enter a command (type 'help' for a list of available commands):
      > history
      2023-01-01: Salary (income) -> 5000.00
@@ -185,12 +185,4 @@ The **Personal Finance Tracker** is a command-line, terminal-based application d
      ```
      4750.00
      ```
-
----
-
-## **Future Enhancements**
-
-- Implementing analytics such as spending trends and anomaly detection.
-- Adding visualizations for income and expense trends.
-- Expanding filtering capabilities, e.g., by category or amount thresholds.
 
