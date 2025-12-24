@@ -2,8 +2,6 @@
 
 The **Personal Finance Parser** is CLI application designed to process personal spending stored in CSV format. It provides users with statistics about their income, expenses, and balance. Users can choose which statistic to display using specific commands.
 
----
-
 ## **Functionalities**
 
 1. **View Complete Transaction History**
@@ -26,8 +24,6 @@ The **Personal Finance Parser** is CLI application designed to process personal 
 
 7. **Calculate Net Balance**
    - Computes the overall balance by summing all income and expenses.
-
----
 
 ## **Setup**
 
@@ -55,8 +51,6 @@ The **Personal Finance Parser** is CLI application designed to process personal 
      ```bash
      dune build
      ```
-
----
 
 ## **Running the Program**
 
@@ -88,8 +82,6 @@ The **Personal Finance Parser** is CLI application designed to process personal 
      2023-01-05: Groceries (expense) -> -150.00
      2023-01-10: Utilities (expense) -> -100.00
      ```
-
----
 
 ## **Command Calls**
 
@@ -124,8 +116,6 @@ The **Personal Finance Parser** is CLI application designed to process personal 
 - Date format does not have to be strictly YYYY-MM-DD.
 - Users can omit MM-DD to specify a year range (e.g., 2023 to 2024).
 - Similarly, users can specify only YYYY-MM for monthly filtering.
-
----
 
 ## **Example Commands**
 
